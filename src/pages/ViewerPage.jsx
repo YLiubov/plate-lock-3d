@@ -1,6 +1,5 @@
 import { useCallback, useState } from "react";
 import Controls from "../components/Controls";
-import Legend from "../components/Legend";
 import Scene from "../components/Scene";
 import StatusBar from "../components/StatusBar";
 import useModels from "../hooks/useModels";
@@ -59,7 +58,6 @@ function ViewerPage() {
             isExploded={isExploded}
             onManualRotate={handleManualRotate}
           />
-          <Legend />
           <Panel
             style={{
               bottom: "1.25rem",
