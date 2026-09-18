@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "models": {
+    "base": "/models/base.glb",
+    "adapter": "/models/adapter.glb"
+  },
+  "rotationStep": 30,
+  "mode": "bayonet"
+}
