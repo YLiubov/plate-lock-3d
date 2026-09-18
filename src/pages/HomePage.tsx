@@ -9,7 +9,11 @@ function HomePage() {
         kan klikkes fast til bordet, så den stadig kan bruges normalt, men ikke
         kastes.
       </p>
-      <p><Link className="primary-link" to="/viewer">Åbn 3D-viewer →</Link></p>
+      <p>
+        <Link className="primary-link" to="/viewer">
+          Åbn 3D-viewer →
+        </Link>
+      </p>
     </section>
   );
 }
